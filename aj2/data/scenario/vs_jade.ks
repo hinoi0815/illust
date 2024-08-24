@@ -7,26 +7,26 @@
 [chara_show  name="ジェイド"  time="1000"  wait="true"  storage="chara/2/ja1.png"  width="240"  height="600"  left="400"  top="68"  reflect="false"  ]
 [tb_show_message_window  ]
 [chara_mod  name="ジェイド"  time="300"  cross="false"  storage="chara/2/ja4.png"  ]
-[tb_start_text mode=2 ]
+[tb_start_text mode=1 ]
 #ジェイド
-さすがはアズール、痺れるような罵倒…いえ慈悲でした。[p][l][r]
-さて、僕ともオハナシいたしませんか？[l][r]
+さすがはアズール、痺れるような罵倒…いえ慈悲でした。[p][p]
+さて、僕ともオハナシいたしませんか？[p]
 [_tb_end_text]
 
-[tb_start_text mode=2 ]
+[tb_start_text mode=1 ]
 #アズール
-は？[l][r]
+は？[p]
 [_tb_end_text]
 
-[tb_start_text mode=2 ]
+[tb_start_text mode=1 ]
 #ジェイド
-僕もアズールを打ち負かしたいです。[l][r]
+僕もアズールを打ち負かしたいです。[p]
 [_tb_end_text]
 
-[tb_start_text mode=2 ]
+[tb_start_text mode=1 ]
 #アズール
-とんだ悪趣味だな……。[l][r]
-いいですよ、僕はお前の口の悪さなんて慣れっこなんだよ！[l][r]
+とんだ悪趣味だな……。[p]
+いいですよ、僕はお前の口の悪さなんて慣れっこなんだよ！[p]
 [_tb_end_text]
 
 [chara_show  name="ターン"  time="0"  wait="true"  storage="chara/15/turn_1.png"  width="100"  height="100"  left="110"  top="32"  reflect="false"  ]
