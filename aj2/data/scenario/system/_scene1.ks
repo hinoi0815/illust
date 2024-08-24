@@ -1,5 +1,5 @@
 [preload  storage="./data/bgimage/lounge.png"  ]
-[preload  storage="./data/fgimage/default/集中線.png"  ]
+[preload  storage="./data/fgimage/default/shuchu.png"  ]
 [preload  storage="./data/fgimage/chara/2/ja3.png"  ]
 [preload  storage="./data/fgimage/chara/3/fl3.png"  ]
 [preload  storage="./data/fgimage/chara/2/ja2.png"  ]

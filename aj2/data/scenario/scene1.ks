@@ -9,7 +9,7 @@
 [_tb_end_tyrano_code]
 
 [delay  speed="30"  ]
-[tb_image_show  time="0"  storage="default/集中線.png"  width="960"  height="640"  ]
+[tb_image_show  time="0"  storage="default/shuchu.png"  width="960"  height="640"  ]
 [quake  time="250"  count="3"  hmax="10"  wait="true"  ]
 [tb_start_text mode=1 ]
 #アズール

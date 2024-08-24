@@ -26,7 +26,7 @@
 [if exp = "f.battle_tips == 0]
 [_tb_end_tyrano_code]
 
-[tb_image_show  time="1000"  storage="default/戦闘Tips.png"  width="960"  height="640"  x="0"  y="0"  _clickable_img=""  name="img_11"  ]
+[tb_image_show  time="1000"  storage="default/battle_Tips.png"  width="960"  height="640"  x="0"  y="0"  _clickable_img=""  name="img_11"  ]
 [tb_start_tyrano_code]
 [eval exp = "f.battle_tips = 1]
 [_tb_end_tyrano_code]

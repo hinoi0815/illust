@@ -187,7 +187,7 @@
 [_tb_end_tyrano_code]
 
 [chara_mod  name="ジェイド"  time="300"  cross="false"  storage="chara/2/j4.png"  ]
-[tb_image_show  time="0"  storage="default/集中線.png"  width="960"  height="640"  ]
+[tb_image_show  time="0"  storage="default/shuchu.png"  width="960"  height="640"  ]
 [quake  time="300"  count="3"  hmax="10"  wait="true"  ]
 [playse  volume="50"  time="1000"  buf="0"  storage="maou_se_battle12.mp3"  ]
 [tb_start_text mode=1 ]
@@ -250,7 +250,7 @@
 [_tb_end_tyrano_code]
 
 [chara_mod  name="ジェイド"  time="300"  cross="false"  storage="chara/2/j4.png"  ]
-[tb_image_show  time="0"  storage="default/集中線.png"  width="960"  height="640"  ]
+[tb_image_show  time="0"  storage="default/shuchu.png"  width="960"  height="640"  ]
 [quake  time="300"  count="3"  hmax="10"  wait="true"  ]
 [tb_start_text mode=1 ]
 #アズール
@@ -295,7 +295,7 @@
 [_tb_end_tyrano_code]
 
 [chara_mod  name="ジェイド"  time="300"  cross="false"  storage="chara/2/j4.png"  ]
-[tb_image_show  time="0"  storage="default/集中線.png"  width="960"  height="640"  ]
+[tb_image_show  time="0"  storage="default/shuchu.png"  width="960"  height="640"  ]
 [quake  time="300"  count="3"  hmax="10"  wait="true"  ]
 [tb_start_text mode=1 ]
 #アズール
@@ -391,7 +391,7 @@
 [_tb_end_tyrano_code]
 
 [chara_mod  name="ジェイド"  time="300"  cross="false"  storage="chara/2/j4.png"  ]
-[tb_image_show  time="0"  storage="default/集中線.png"  width="960"  height="640"  ]
+[tb_image_show  time="0"  storage="default/shuchu.png"  width="960"  height="640"  ]
 [quake  time="300"  count="3"  hmax="10"  wait="true"  ]
 [tb_start_text mode=1 ]
 #アズール
@@ -435,7 +435,7 @@
 [_tb_end_tyrano_code]
 
 [chara_mod  name="ジェイド"  time="300"  cross="false"  storage="chara/2/j4.png"  ]
-[tb_image_show  time="0"  storage="default/集中線.png"  width="960"  height="640"  ]
+[tb_image_show  time="0"  storage="default/shuchu.png"  width="960"  height="640"  ]
 [quake  time="300"  count="3"  hmax="10"  wait="true"  ]
 [tb_start_text mode=1 ]
 #アズール

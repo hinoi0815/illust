@@ -18,7 +18,7 @@
 [preload  storage="./data/fgimage/chara/14/azul_HP_1.png"  ]
 [preload  storage="./data/fgimage/chara/14/azul_HP_0.png"  ]
 [preload  storage="./data/fgimage/chara/2/ja3.png"  ]
-[preload  storage="./data/fgimage/default/集中線.png"  ]
+[preload  storage="./data/fgimage/default/shuchu.png"  ]
 [preload  storage="./data/fgimage/chara/1/a8.png"  ]
 [preload  storage="./data/fgimage/chara/1/a7.png"  ]
 [return]
