@@ -151,7 +151,7 @@
 [chara_mod  name="アズールHP"  time="300"  cross="true"  storage="chara/14/azul_HP_0.png"  ]
 [tb_start_text mode=1 ]
 #アズール
-こんなはずでは・・・！[p]
+こんなはずでは……！[p]
 [_tb_end_text]
 
 [cm  ]
@@ -171,12 +171,12 @@
 
 [tb_start_text mode=1 ]
 #アズール
-反省もせずに逃げるなんて救いようがありませんね[p]
+反省もせずに逃げるなんて救いようがありませんね。[p]
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
 #モブ寮生A
-なめた口ききやがって・・・[p]
+なめた口ききやがって……！[p]
 [_tb_end_text]
 
 [tb_eval  exp="f.mob_a_HP-=1"  name="mob_a_HP"  cmd="-="  op="t"  val="1"  val_2="undefined"  ]
@@ -211,7 +211,7 @@
 
 [tb_start_text mode=1 ]
 #アズール
-あなたも追い詰められることがあったんでしょう。かわいそうに[p]
+あなたも追い詰められることがあったんでしょう。かわいそうに。[p]
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
@@ -234,12 +234,12 @@
 
 [tb_start_text mode=1 ]
 #アズール
-反省もせずに逃げるなんて救いようがありませんね[p]
+反省もせずに逃げるなんて救いようがありませんね。[p]
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
 #モブ寮生A
-なめた口ききやがって・・・[p]
+なめた口ききやがって……！[p]
 [_tb_end_text]
 
 [tb_eval  exp="f.mob_a_HP-=1"  name="mob_a_HP"  cmd="-="  op="t"  val="1"  ]
@@ -273,7 +273,7 @@
 
 [tb_start_text mode=1 ]
 #アズール
-あなたも追い詰められることがあったんでしょう。かわいそうに[p]
+あなたも追い詰められることがあったんでしょう。かわいそうに。[p]
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
@@ -299,12 +299,12 @@
 [quake  time="300"  count="3"  hmax="10"  wait="true"  ]
 [tb_start_text mode=1 ]
 #アズール
-きっとあなたはこれからの人生もこうして逃げ回るのでしょうね[p]
+きっとあなたはこれからの人生もこうして逃げ回るのでしょうね。[p]
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
 #モブ寮生
-・・・ふんっ！[p]
+…ふんっ！[p]
 [_tb_end_text]
 
 [tb_image_hide  time="1000"  ]
@@ -334,12 +334,12 @@
 
 [tb_start_text mode=1 ]
 #アズール
-本当は困り果てていたのでしょう？正直におっしゃっていただいてもいいんですよ[p]
+本当は困り果てていたのでしょう？正直におっしゃっていただいてもいいんですよ。[p]
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
 #モブ寮生
-うう・・・[p]
+うう……。[p]
 [_tb_end_text]
 
 [tb_eval  exp="f.mob_a_HP-=1"  name="mob_a_HP"  cmd="-="  op="t"  val="1"  val_2="undefined"  ]
@@ -357,12 +357,12 @@
 
 [tb_start_text mode=1 ]
 #アズール
-反省もせずに逃げるなんて救いようがありませんね[p]
+反省もせずに逃げるなんて救いようがありませんね。[p]
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
 #モブ寮生
-なめた口ききやがって・・・[p]
+なめた口ききやがって……！[p]
 [_tb_end_text]
 
 [tb_eval  exp="f.mob_a_HP-=1"  name="mob_a_HP"  cmd="-="  op="t"  val="1"  val_2="undefined"  ]
@@ -380,7 +380,7 @@
 [chara_mod  name="ジェイド"  time="600"  cross="true"  storage="chara/2/j9.png"  ]
 [tb_start_text mode=1 ]
 #モブ寮生
-恐ろしいリーチ兄弟に狙われている気がする・・・[p]
+恐ろしいリーチ兄弟に狙われている気がする……。[p]
 [_tb_end_text]
 
 [tb_eval  exp="f.mob_a_HP-=1"  name="mob_a_HP"  cmd="-="  op="t"  val="1"  val_2="undefined"  ]
@@ -395,7 +395,7 @@
 [quake  time="300"  count="3"  hmax="10"  wait="true"  ]
 [tb_start_text mode=1 ]
 #アズール
-強がるよりはここで終わりにしませんか？悪いようにはしませんから[p]
+強がるよりはここで終わりにしませんか？悪いようにはしませんから。[p]
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
@@ -419,12 +419,12 @@
 
 [tb_start_text mode=1 ]
 #アズール
-反省もせずに逃げるなんて救いようがありませんね[p]
+反省もせずに逃げるなんて救いようがありませんね。[p]
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
 #モブ寮生
-なめた口ききやがって・・・[p]
+なめた口ききやがって……！[p]
 [_tb_end_text]
 
 [tb_eval  exp="f.mob_a_HP-=1"  name="mob_a_HP"  cmd="-="  op="t"  val="1"  ]
@@ -458,7 +458,7 @@
 
 [tb_start_text mode=1 ]
 #アズール
-あなたも追い詰められることがあったんでしょう。かわいそうに[p]
+あなたも追い詰められることがあったんでしょう。かわいそうに。[p]
 [_tb_end_text]
 
 [tb_start_text mode=1 ]

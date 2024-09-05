@@ -38,13 +38,12 @@
 [_tb_end_text]
 
 [chara_mod  name="ジェイド"  time="100"  cross="false"  storage="chara/2/ja3.png"  ]
-[tb_start_text mode=2 ]
+[tb_start_text mode=1 ]
 #ジェイド
-営業中ですし誰かはラウンジ残らないといけませんね。[l][r]
-それなら僕が残りましょう。[l][r]
+営業中ですし誰かはラウンジ残らないといけませんね。[p]
+それなら僕が残りましょう。[p]
 [_tb_end_text]
 
-[cm  ]
 [chara_mod  name="フロイド"  time="600"  cross="false"  storage="chara/3/fl3.png"  ]
 [tb_start_text mode=1 ]
 #フロイド
@@ -65,7 +64,6 @@
 急ぐ用件ですし、そんなこと言うならジェイドと行ってきますが、フロイド！ちゃんと働いていてくださいよ？[p]
 [_tb_end_text]
 
-[cm  ]
 [chara_mod  name="フロイド"  time="300"  cross="false"  storage="chara/3/fl3.png"  ]
 [tb_start_text mode=1 ]
 #フロイド
@@ -81,7 +79,6 @@
 ジェイド、見てなさいフフフ………[p]
 [_tb_end_text]
 
-[cm  ]
 [chara_mod  name="ジェイド"  time="300"  cross="false"  storage="chara/2/ja1.png"  ]
 [tb_start_text mode=1 ]
 #ジェイド

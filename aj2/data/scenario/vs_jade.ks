@@ -32,6 +32,7 @@
 [chara_show  name="ターン"  time="0"  wait="true"  storage="chara/15/turn_1.png"  width="100"  height="100"  left="110"  top="32"  reflect="false"  ]
 [chara_show  name="ジェイドLOVE"  time="0"  wait="true"  storage="chara/13/jadeLOVE_0.png"  width="307"  height="35"  left="320"  top="20"  reflect="false"  ]
 [chara_show  name="アズール"  time="0"  wait="true"  storage="chara/1/a6.png"  width="200"  height="200"  left="692"  top="98"  reflect="false"  ]
+[tb_eval  exp="f.azul_HP=5"  name="azul_HP"  cmd="="  op="t"  val="5"  val_2="undefined"  ]
 *ohanashi
 
 [chara_mod  name="アズール"  time="0"  cross="true"  storage="chara/1/a6.png"  ]
@@ -97,7 +98,7 @@
 [chara_mod  name="ジェイド"  time="600"  cross="true"  storage="chara/2/ja2.png"  ]
 [tb_start_text mode=1 ]
 #ジェイド
-ふふ・・・アズールあなたという人は・・・[p]
+ふふ……アズールあなたという人は…。[p]
 [_tb_end_text]
 
 [jump  storage="vs_jade.ks"  target="*ohanashi"  ]
@@ -161,7 +162,7 @@
 [chara_mod  name="アズールHP"  time="300"  cross="true"  storage="chara/14/azul_HP_0.png"  ]
 [tb_start_text mode=1 ]
 #アズール
-こんなはずでは・・・！[p]
+こんなはずでは……！[p]
 [_tb_end_text]
 
 [cm  ]
@@ -226,7 +227,7 @@
 
 [tb_start_text mode=1 ]
 #アズール
-そういうなら自分でしてみたらどうですか？見ていてあげますよ。[p]
+ふん！そういうなら自分でしてみたらどうですか？見ていてあげますよ。[p]
 [_tb_end_text]
 
 [tb_eval  exp="f.jade_LOVE-=0"  name="jade_LOVE"  cmd="-="  op="t"  val="0"  val_2="undefined"  ]

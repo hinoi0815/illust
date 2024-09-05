@@ -44,7 +44,7 @@
 
 [tb_start_text mode=3 ]
 #ジェイド
-どなたにお話をしに行きましょうか[r]
+どなたにお話をしに行きましょうか？[r]
 [_tb_end_text]
 
 [clickable  storage="mostro.ks"  x="420"  y="176"  width="114"  height="201"  target="*touch"  _clickable_img=""  ]

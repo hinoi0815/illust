@@ -3,7 +3,7 @@
 *mobb
 
 [bg  time="0"  method="crossfade"  storage="danwashitsu.png"  ]
-[chara_show  name="モブ寮生B"  time="1000"  wait="true"  storage="chara/9/mobb.png"  width="328"  height="613"  left="318"  top="78"  reflect="false"  ]
+[chara_show  name="モブ寮生B"  time="1000"  wait="true"  storage="chara/9/mobb.png"  width="350"  height="630"  left="320"  top="60"  reflect="false"  ]
 [tb_show_message_window  ]
 [chara_mod  name="モブ寮生B"  time="300"  cross="false"  storage="chara/9/mobb.png"  ]
 [tb_start_text mode=2 ]
@@ -148,7 +148,7 @@
 [chara_mod  name="アズールHP"  time="300"  cross="true"  storage="chara/14/azul_HP_0.png"  ]
 [tb_start_text mode=1 ]
 #アズール
-こんなはずでは・・・！[p]
+こんなはずでは……！[p]
 [_tb_end_text]
 
 [cm  ]
@@ -169,6 +169,7 @@
 [chara_mod  name="ジェイド"  time="300"  cross="false"  storage="chara/2/j4.png"  ]
 [tb_image_show  time="0"  storage="default/shuchu.png"  width="960"  height="640"  ]
 [quake  time="300"  count="3"  hmax="10"  wait="true"  ]
+[playse  volume="50"  time="1000"  buf="0"  storage="maou_se_battle12.mp3"  ]
 [tb_start_text mode=1 ]
 #アズール
 他の寮で逃げ回るなんて、ハーツラビュル寮生として恥を知りなさい！[p]
@@ -195,8 +196,8 @@
 
 [tb_start_text mode=1 ]
 #モブ寮生
-そっ、そんなことできないだろ！[r][p]
-できないですよね・・・？[p]
+そっ、そんなことできないだろ！[p]
+できないですよね…？[p]
 [_tb_end_text]
 
 [tb_eval  exp="f.mob_b_HP-=0"  name="mob_b_HP"  cmd="-="  op="t"  val="0"  val_2="undefined"  ]
@@ -233,6 +234,7 @@
 [chara_mod  name="ジェイド"  time="300"  cross="false"  storage="chara/2/j4.png"  ]
 [tb_image_show  time="0"  storage="default/shuchu.png"  width="960"  height="640"  ]
 [quake  time="300"  count="3"  hmax="10"  wait="true"  ]
+[playse  volume="50"  time="1000"  buf="0"  storage="maou_se_battle12.mp3"  ]
 [tb_start_text mode=1 ]
 #アズール
 他の寮で逃げ回るなんて、ハーツラビュル寮生として恥を知りなさい！[p]
@@ -258,8 +260,8 @@
 
 [tb_start_text mode=1 ]
 #モブ寮生
-そっ、そんなことできないだろ！[r][p]
-できないですよね・・・？[p]
+そっ、そんなことできないだろ！[p]
+できないですよね…？[p]
 [_tb_end_text]
 
 [tb_eval  exp="f.mob_b_HP-=0"  name="mob_b_HP"  cmd="-="  op="t"  val="0"  val_2="undefined"  ]
@@ -330,6 +332,7 @@
 [chara_mod  name="ジェイド"  time="300"  cross="false"  storage="chara/2/j9.png"  ]
 [tb_image_show  time="0"  storage="default/shuchu.png"  width="960"  height="640"  ]
 [quake  time="300"  count="3"  hmax="10"  wait="true"  ]
+[playse  volume="50"  time="1000"  buf="0"  storage="maou_se_battle12.mp3"  ]
 [tb_start_text mode=1 ]
 #アズール
 オクタヴィネルのモットーは慈悲です。無理なくお支払いしていただけるようにプランをご一緒に考えますよ。[p]
@@ -337,7 +340,7 @@
 
 [tb_start_text mode=1 ]
 #モブ寮生
-本当はそんなに悪いやつじゃない・・・のか・・・？[p]
+本当はそんなに悪いやつじゃない…のか……？[p]
 [_tb_end_text]
 
 [tb_image_hide  time="1000"  ]
@@ -356,12 +359,12 @@
 
 [tb_start_text mode=1 ]
 #アズール
-こんな大人数に見られていたら、卒業するまで・・・、いえ卒業してもずっと悪態を語り継がれることでしょうね。[p]
+こんな大人数に見られていたら卒業するまで…、いえ卒業してもずっと悪態を語り継がれることでしょうね。[p]
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
 #モブ寮生
-うう・・・[p]
+うう……。[p]
 [_tb_end_text]
 
 [tb_eval  exp="f.mob_b_HP-=1"  name="mob_b_HP"  cmd="-="  op="t"  val="1"  val_2="undefined"  ]
@@ -374,9 +377,10 @@
 [chara_mod  name="ジェイド"  time="300"  cross="false"  storage="chara/2/j4.png"  ]
 [tb_image_show  time="0"  storage="default/shuchu.png"  width="960"  height="640"  ]
 [quake  time="300"  count="3"  hmax="10"  wait="true"  ]
+[playse  volume="50"  time="1000"  buf="0"  storage="maou_se_battle12.mp3"  ]
 [tb_start_text mode=1 ]
 #アズール
-明日から首輪を付けて学業に勤しむあなたが見れるんでしょうね。楽しみです[p]
+明日から首輪を付けて学業に勤しむあなたが見れるんでしょうね。楽しみです。[p]
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
@@ -422,12 +426,12 @@
 
 [tb_start_text mode=1 ]
 #アズール
-こんな大人数に見られていたら、卒業するまで・・・、いえ卒業してもずっと悪態を語り継がれることでしょうね。[p]
+こんな大人数に見られていたら卒業するまで…、いえ卒業してもずっと悪態を語り継がれることでしょうね。[p]
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
 #モブ寮生
-うう・・・[p]
+うう……。[p]
 [_tb_end_text]
 
 [tb_eval  exp="f.mob_b_HP-=1"  name="mob_b_HP"  cmd="-="  op="t"  val="1"  val_2="undefined"  ]
@@ -440,9 +444,10 @@
 [chara_mod  name="ジェイド"  time="300"  cross="false"  storage="chara/2/j4.png"  ]
 [tb_image_show  time="0"  storage="default/shuchu.png"  width="960"  height="640"  ]
 [quake  time="300"  count="3"  hmax="10"  wait="true"  ]
+[playse  volume="50"  time="1000"  buf="0"  storage="maou_se_battle12.mp3"  ]
 [tb_start_text mode=1 ]
 #アズール
-明日から首輪を付けて学業に勤しむあなたが見れるんでしょうね。楽しみです[p]
+明日から首輪を付けて学業に勤しむあなたが見れるんでしょうね。楽しみです。[p]
 [_tb_end_text]
 
 [tb_start_text mode=1 ]

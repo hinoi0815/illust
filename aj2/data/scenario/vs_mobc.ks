@@ -3,7 +3,7 @@
 *mobc
 
 [bg  time="1000"  method="crossfade"  storage="BG02a_80.jpg"  ]
-[chara_show  name="モブ寮生C"  time="1000"  wait="true"  storage="chara/10/mobc.png"  width="336"  height="624"  left="317"  top="80"  reflect="false"  ]
+[chara_show  name="モブ寮生C"  time="1000"  wait="true"  storage="chara/10/mobc.png"  width="360"  height="640"  left="310"  top="60"  reflect="false"  ]
 [tb_show_message_window  ]
 [tb_start_text mode=1 ]
 #モブ寮生
@@ -153,7 +153,7 @@
 [chara_mod  name="アズールHP"  time="300"  cross="true"  storage="chara/14/azul_HP_0.png"  ]
 [tb_start_text mode=1 ]
 #アズール
-こんなはずでは・・・！[p]
+こんなはずでは……！[p]
 [_tb_end_text]
 
 [cm  ]
@@ -173,7 +173,7 @@
 
 [tb_start_text mode=1 ]
 #アズール
-学園の地理が分かっていればもっと逃げられたのに・・・残念でしたね[p]
+学園の地理が分かっていればもっと逃げられたのに……残念でしたね[p]
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
@@ -194,7 +194,7 @@
 [playse  volume="50"  time="1000"  buf="0"  storage="maou_se_battle12.mp3"  ]
 [tb_start_text mode=1 ]
 #アズール
-どこまで逃げてますか？島の外に出られてもずっと付きまといますよ[p]
+どこまで逃げてますか？島の外に出ても、ずっと付きまとい世界の果てでも取り立ていたします。[p]
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
@@ -240,7 +240,7 @@
 
 [tb_start_text mode=1 ]
 #モブ寮生
-お前が追いかけてこなけりゃいいんだろ[p]
+お前が追いかけてこなけりゃいいんだろ！[p]
 [_tb_end_text]
 
 [tb_eval  exp="f.mob_c_HP-=0"  name="mob_c_HP"  cmd="-="  op="t"  val="0"  val_2="undefined"  ]
@@ -252,7 +252,7 @@
 
 [tb_start_text mode=1 ]
 #アズール
-あなたには力ずくの方が早そうだ[p]
+あなたには力ずくの方が早そうだ。[p]
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
@@ -277,7 +277,7 @@
 
 [tb_start_text mode=1 ]
 #モブ寮生
-うっ！たしかに・・・？[p]
+うっ！たしかに……？[p]
 [_tb_end_text]
 
 [tb_image_hide  time="1000"  ]
@@ -296,7 +296,7 @@
 
 [tb_start_text mode=1 ]
 #アズール
-学園の地理が分かっていればもっと逃げられたのに・・・残念でしたね[p]
+学園の地理が分かっていればもっと逃げられたのに…残念でしたね。[p]
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
@@ -316,7 +316,7 @@
 [chara_mod  name="ジェイド"  time="300"  cross="false"  storage="chara/2/j4.png"  ]
 [tb_start_text mode=1 ]
 #アズール
-どこまで逃げてますか？島の外に出られてもずっと付きまといますよ[p]
+どこまで逃げてますか？島の外に出ても、ずっと付きまとい世界の果てでも取り立ていたします。[p]
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
@@ -362,7 +362,7 @@
 
 [tb_start_text mode=1 ]
 #モブ寮生
-お前が追いかけてこなけりゃいいんだろ[p]
+お前が追いかけてこなけりゃいいんだろ！[p]
 [_tb_end_text]
 
 [tb_eval  exp="f.mob_c_HP-=0"  name="mob_c_HP"  cmd="-="  op="t"  val="0"  val_2="undefined"  ]
@@ -375,7 +375,7 @@
 [chara_mod  name="ジェイド"  time="300"  cross="false"  storage="chara/2/j4.png"  ]
 [tb_start_text mode=1 ]
 #アズール
-あなたには力ずくの方が早そうだ[p]
+あなたには力ずくの方が早そうだ。[p]
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
@@ -399,7 +399,7 @@
 
 [tb_start_text mode=1 ]
 #モブ寮生
-うっ！たしかに・・・？[p]
+うっ！たしかに……？[p]
 [_tb_end_text]
 
 [tb_image_hide  time="1000"  ]
@@ -423,7 +423,7 @@
 
 [tb_start_text mode=1 ]
 #モブ寮生
-お前が追いかけてこなけりゃいいんだろ[p]
+お前が追いかけてこなけりゃいいんだろ。[p]
 [_tb_end_text]
 
 [tb_eval  exp="f.mob_c_HP-=0"  name="mob_c_HP"  cmd="-="  op="t"  val="0"  val_2="undefined"  ]
@@ -435,7 +435,7 @@
 
 [tb_start_text mode=1 ]
 #アズール
-あなたには力ずくの方が早そうだ[p]
+あなたには力ずくの方が早そうだ。[p]
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
@@ -460,7 +460,7 @@
 
 [tb_start_text mode=1 ]
 #モブ寮生
-うっ！たしかに・・・？[p]
+うっ！たしかに……？[p]
 [_tb_end_text]
 
 [tb_image_hide  time="1000"  ]

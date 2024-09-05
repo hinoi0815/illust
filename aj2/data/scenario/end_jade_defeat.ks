@@ -58,6 +58,11 @@
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
+#フロイド
+こっちのセリフだよ！！[p]
+[_tb_end_text]
+
+[tb_start_text mode=1 ]
 #
 おわり（キノコフルコースEND）[p]
 [_tb_end_text]

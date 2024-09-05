@@ -47,7 +47,6 @@
 [chara_hide_all  time="300"  wait="true"  ]
 [bg  time="1000"  method="fadeIn"  storage="B_END_kiss.png"  ]
 [tb_cg  id="max_love_end"  ]
-[chara_mod  name="ジェイド"  time="300"  cross="false"  storage="chara/2/ja3.png"  ]
 [tb_start_text mode=1 ]
 #ジェイド
 んっ！？[p]
@@ -58,6 +57,7 @@
 どうしても口から漏れるのであれば塞いでやればいいだけです！[p]
 [_tb_end_text]
 
+[bg  time="1000"  method="crossfade"  storage="B_END_kiss_2.png"  ]
 [tb_start_text mode=1 ]
 #ジェイド
 ……ずいぶん真っ赤な蛸ですね…。僕もでしょうか。[p]

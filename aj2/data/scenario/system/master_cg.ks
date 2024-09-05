@@ -7,6 +7,8 @@
 [cm][clearfix] 
 [image  name="cg_image"  layer="1"  zindex="10"  time="100"  storage="B_END_kiss.png"  folder="bgimage"  visible="true"  width="960"  height="640"  ]
 [l] 
+[image  name="cg_image"  layer="1"  zindex="10"  time="100"  storage="B_END_kiss_2.png"  folder="bgimage"  visible="true"  width="960"  height="640"  ]
+[l] 
 [awakegame] 
 *mashroom_end 
 [cm][clearfix] 

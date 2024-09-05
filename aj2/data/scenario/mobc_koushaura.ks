@@ -14,7 +14,8 @@
 [tb_show_message_window  ]
 [tb_start_text mode=1 ]
 #アズール
-学園内のどこにも見かけないと思ったらここにいたのですね。追い詰めましたよ[p]
+学園内のどこにも見かけないと思ったらここにいたのですね。[p]
+追い詰めましたよ。[p]
 #モブ寮生
 ひいっ！アーシェングロット！！！[p]
 [_tb_end_text]
@@ -56,7 +57,7 @@
 [chara_mod  name="アズール"  time="600"  cross="true"  storage="chara/1/az2.png"  ]
 [tb_start_text mode=1 ]
 #アズール
-……ジェイド、手を繋いで戻りませんか？誰も見ていないですし…[p]
+……ジェイド、手を繋いで戻りませんか？誰も見ていないですし…。[p]
 [_tb_end_text]
 
 [chara_mod  name="ジェイド"  time="600"  cross="true"  storage="chara/2/ja3.png"  ]
@@ -77,7 +78,7 @@
 [chara_move  name="ジェイド"  anim="false"  time="300"  effect="linear"  wait="true"  left="370"  top="45"  width="238"  height="600"  ]
 [tb_start_text mode=1 ]
 #ジェイド
-おやおや…ふふふ、嫌とは言っていません[p]
+おやおや…ふふふ、嫌とは言っていません。[p]
 [_tb_end_text]
 
 [chara_mod  name="アズール"  time="600"  cross="true"  storage="chara/1/az3.png"  ]
