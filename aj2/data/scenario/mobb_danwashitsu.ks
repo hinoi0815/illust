@@ -52,7 +52,7 @@
 [hidemenubutton]
 
 [tb_hide_message_window  ]
-[tb_eval  exp="sf.flag2=1"  name="flag2"  cmd="="  op="t"  val="1"  val_2="undefined"  ]
+[tb_eval  exp="f.flag_mobb=1"  name="flag_mobb"  cmd="="  op="t"  val="1"  val_2="undefined"  ]
 [bg  time="1000"  method="crossfade"  storage="black.png"  ]
 [chara_hide_all  time="1000"  wait="true"  ]
 [mask_off  time="1000"  effect="fadeOut"  ]

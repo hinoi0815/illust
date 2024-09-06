@@ -10,7 +10,7 @@
 [bg  time="1000"  method="crossfade"  storage="BG02a_80.jpg"  ]
 [mask_off  time="1000"  effect="fadeOut"  ]
 [chara_show  name="アズール"  time="100"  wait="true"  left="110"  top="70"  width="350"  height="600"  reflect="false"  storage="chara/1/az1.png"  ]
-[chara_show  name="モブ寮生C"  time="100"  wait="false"  storage="chara/10/mobc.png"  width="336"  height="624"  left="490"  top="80"  reflect="false"  ]
+[chara_show  name="モブ寮生C"  time="100"  wait="false"  storage="chara/10/mobc.png"  width="336"  height="640"  left="490"  top="50"  reflect="false"  ]
 [tb_show_message_window  ]
 [tb_start_text mode=1 ]
 #アズール
@@ -93,7 +93,7 @@
 [hidemenubutton]
 
 [tb_hide_message_window  ]
-[tb_eval  exp="sf.flag3=1"  name="flag3"  cmd="="  op="t"  val="1"  val_2="undefined"  ]
+[tb_eval  exp="f.flag_mobc=1"  name="flag_mobc"  cmd="="  op="t"  val="1"  val_2="undefined"  ]
 [bg  time="1000"  method="crossfade"  storage="black.png"  ]
 [chara_hide_all  time="1000"  wait="true"  ]
 [mask_off  time="1000"  effect="fadeOut"  ]

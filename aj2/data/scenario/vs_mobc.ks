@@ -3,7 +3,7 @@
 *mobc
 
 [bg  time="1000"  method="crossfade"  storage="BG02a_80.jpg"  ]
-[chara_show  name="モブ寮生C"  time="1000"  wait="true"  storage="chara/10/mobc.png"  width="360"  height="640"  left="310"  top="60"  reflect="false"  ]
+[chara_show  name="モブ寮生C"  time="1000"  wait="true"  storage="chara/10/mobc.png"  width="360"  height="660"  left="310"  top="50"  reflect="false"  ]
 [tb_show_message_window  ]
 [tb_start_text mode=1 ]
 #モブ寮生

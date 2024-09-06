@@ -2,77 +2,100 @@
 
 [mask time=10]
 [mask_off time=10]
-*lounge
+*koushaura
 
-[stopbgm  time="1000"  ]
 [tb_hide_message_window  ]
 [mask  time="1000"  effect="fadeIn"  color="0x000000"  ]
 [chara_hide_all  time="0"  wait="true"  ]
 [wait  time="200"  ]
-[bg  time="500"  method="crossfade"  storage="lounge.png"  ]
+[playbgm  volume="20"  time="1000"  loop="true"  storage="MusMus-BGM-125.mp3"  ]
+[bg  time="1000"  method="crossfade"  storage="BG02a_80.jpg"  ]
 [mask_off  time="1000"  effect="fadeOut"  ]
-[playbgm  volume="30"  time="1000"  loop="true"  storage="MusMus-BGM-125.mp3"  ]
-[chara_show  name="アズール"  time="100"  wait="true"  left="130"  top="40"  width="350"  height="600"  reflect="false"  storage="chara/1/az1.png"  ]
-[chara_show  name="モブ寮生A"  time="100"  wait="false"  storage="chara/8/moba.png"  width="496"  height="600"  left="440"  top="60"  reflect="false"  ]
+[chara_show  name="アズール"  time="100"  wait="true"  left="110"  top="70"  width="350"  height="600"  reflect="false"  storage="chara/1/az1.png"  ]
+[chara_show  name="モブ寮生C"  time="100"  wait="false"  storage="chara/10/mobc.png"  width="336"  height="640"  left="490"  top="50"  reflect="false"  ]
 [tb_show_message_window  ]
 [tb_start_text mode=1 ]
 #アズール
-わざわざモストロにお越しいただいてまことにありがとうございます。[p]
-さて、用件はお分かりですよね？[p]
+学園内のどこにも見かけないと思ったらここにいたのですね。[p]
+追い詰めましたよ。[p]
 #モブ寮生
-前から言ってる通り手持ちがないんですよ、アーシェングロットさん。[p]
-もう少し待ってくれませんか？[p]
+ひいっ！アーシェングロット！！！[p]
 [_tb_end_text]
 
-[chara_mod  name="アズール"  time="300"  cross="false"  storage="chara/1/az3.png"  ]
-[tb_start_text mode=1 ]
-#アズール
-ずっとそう言い続けて、全然対価の用意を全然していないでしょう！[p]
-[_tb_end_text]
-
-[chara_mod  name="アズール"  time="300"  cross="false"  storage="chara/1/az2.png"  ]
-[tb_start_text mode=1 ]
-#アズール
-……支払うつもりがないなら、[p]
-[_tb_end_text]
-
-[chara_mod  name="アズール"  time="300"  cross="false"  storage="chara/1/az1.png"  ]
-[tb_start_text mode=1 ]
-#アズール
-心変わりするまでオハナシに付き合っていただきましょう。[p]
-#モブ寮生
-ふん！無駄だ！[p]
-[_tb_end_text]
-
-[chara_hide_all  time="300"  wait="true"  ]
-[jump  storage="vs_moba.ks"  target="*moba"  ]
-*moba_nakayoshi
+[chara_hide_all  time="1000"  wait="true"  ]
+[jump  storage="vs_mobc.ks"  target="*mobc"  ]
+*mobc_nakayoshi
 
 [tb_start_text mode=1 ]
 #モブ寮生
-うっ！うわああああ！！！[p]
+ちゃ、ちゃんと支払います！！だからやめてください！[p]
 #アズール
-さあ、お支払いいただきますね？[p]
+ご理解いただけてなによりです。[p]
 [_tb_end_text]
 
-[tb_start_text mode=1 ]
-#モブ寮生
-明日には……い、いや今からかき集めてきます。[p]
-#アズール
-最初から素直に応じておけばよかったんですよ。[p]
-[_tb_end_text]
+[mask  time="500"  effect="fadeIn"  color="0x000000"  ]
+[stopbgm  time="1000"  ]
+[hidemenubutton]
 
-[chara_mod  name="ジェイド"  time="600"  cross="true"  storage="chara/2/j4.png"  ]
+[tb_hide_message_window  ]
+[bg  time="500"  method="crossfade"  storage="black.png"  ]
+[chara_hide_all  time="1000"  wait="true"  ]
+[mask_off  time="500"  effect="fadeOut"  ]
+[bg  time="500"  method="crossfade"  storage="BG02a_80.jpg"  ]
+[playbgm  volume="100"  time="1000"  loop="true"  storage="MusMus-BGM-102.mp3"  ]
+[tb_show_message_window  ]
+[chara_show  name="アズール"  time="0"  wait="true"  storage="chara/1/az1.png"  width="350"  height="600"  left="81"  top="50"  reflect="false"  ]
+[chara_show  name="ジェイド"  time="1000"  wait="true"  left="556"  top="45"  width="238"  height="600"  reflect="false"  storage="chara/2/ja1.png"  ]
 [tb_start_text mode=1 ]
 #ジェイド
-ふふ、さすがアズール。お見事です。[p]
+さて、ずいぶん遠くまで来てしまいましたね。急いで戻りましょう。[p]
 [_tb_end_text]
 
+[tb_start_text mode=1 ]
+#アズール
+ええ、そうですね。[p]
+[_tb_end_text]
+
+[chara_mod  name="アズール"  time="600"  cross="true"  storage="chara/1/az2.png"  ]
+[tb_start_text mode=1 ]
+#アズール
+……ジェイド、手を繋いで戻りませんか？誰も見ていないですし…。[p]
+[_tb_end_text]
+
+[chara_mod  name="ジェイド"  time="600"  cross="true"  storage="chara/2/ja3.png"  ]
+[tb_start_text mode=1 ]
+#ジェイド
+アズール、どうしたんですか？[p]
+……学園の外れとはいえ、誰かに見られるかもしれませんよ？[p]
+[_tb_end_text]
+
+[chara_mod  name="アズール"  time="600"  cross="true"  storage="chara/1/az1.png"  ]
+[tb_start_text mode=1 ]
+#アズール
+コホン、……失礼。久しぶりに二人きりで…、つい舞い上がってしまいました…。[p]
+いえ、なんでもありませんよ。早く戻りましょう。[p]
+[_tb_end_text]
+
+[chara_mod  name="ジェイド"  time="600"  cross="true"  storage="chara/2/ja2.png"  ]
+[chara_move  name="ジェイド"  anim="false"  time="300"  effect="linear"  wait="true"  left="370"  top="45"  width="238"  height="600"  ]
+[tb_start_text mode=1 ]
+#ジェイド
+おやおや…ふふふ、嫌とは言っていません。[p]
+[_tb_end_text]
+
+[chara_mod  name="アズール"  time="600"  cross="true"  storage="chara/1/az3.png"  ]
+[tb_start_text mode=1 ]
+#アズール
+お前なぁ！！[p]
+[_tb_end_text]
+
+[wait  time="500"  ]
+[chara_mod  name="アズール"  time="600"  cross="true"  storage="chara/1/az2.png"  ]
 [mask  time="1000"  effect="fadeIn"  color="0x000000"  ]
 [hidemenubutton]
 
 [tb_hide_message_window  ]
-[tb_eval  exp="sf.flag1=1"  name="flag1"  cmd="="  op="t"  val="1"  val_2="undefined"  ]
+[tb_eval  exp="f.flag_mobc=1"  name="flag_mobc"  cmd="="  op="t"  val="1"  val_2="undefined"  ]
 [bg  time="1000"  method="crossfade"  storage="black.png"  ]
 [chara_hide_all  time="1000"  wait="true"  ]
 [mask_off  time="1000"  effect="fadeOut"  ]

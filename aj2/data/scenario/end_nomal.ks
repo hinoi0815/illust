@@ -64,6 +64,7 @@
 [bg  time="300"  method="crossfade"  storage="black.png"  ]
 [mask_off  time="1000"  effect="fadeOut"  ]
 [bg  time="1000"  method="crossfade"  storage="A_END_teatime.png"  ]
+[tb_cg  id="nomal_end"  ]
 [tb_show_message_window  ]
 [tb_start_text mode=1 ]
 #

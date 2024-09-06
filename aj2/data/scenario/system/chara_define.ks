@@ -36,4 +36,7 @@ f['turn']=0;
 f['jade_enjoy']=0; 
 f['battle_tips']=0; 
 f['jade_touch']=1; 
+f['flag_moba']=0; 
+f['flag_mobb']=0; 
+f['flag_mobc']=0; 
 [endscript] 

@@ -6,6 +6,8 @@
 [playbgm  volume="20"  time="1000"  loop="true"  storage="MusMus-BGM-156.mp3"  ]
 [chara_show  name="ジェイド"  time="1000"  wait="true"  storage="chara/2/ja1.png"  width="240"  height="600"  left="400"  top="68"  reflect="false"  ]
 [tb_show_message_window  ]
+[showmenubutton]
+
 [chara_mod  name="ジェイド"  time="300"  cross="false"  storage="chara/2/ja4.png"  ]
 [tb_start_text mode=1 ]
 #ジェイド
@@ -33,6 +35,7 @@
 [chara_show  name="ジェイドLOVE"  time="0"  wait="true"  storage="chara/13/jadeLOVE_0.png"  width="307"  height="35"  left="320"  top="20"  reflect="false"  ]
 [chara_show  name="アズール"  time="0"  wait="true"  storage="chara/1/a6.png"  width="200"  height="200"  left="692"  top="98"  reflect="false"  ]
 [tb_eval  exp="f.azul_HP=5"  name="azul_HP"  cmd="="  op="t"  val="5"  val_2="undefined"  ]
+[tb_eval  exp="f.jade_LOVE=0"  name="jade_LOVE"  cmd="="  op="t"  val="0"  val_2="undefined"  ]
 *ohanashi
 
 [chara_mod  name="アズール"  time="0"  cross="true"  storage="chara/1/a6.png"  ]

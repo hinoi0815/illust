@@ -1,8 +1,8 @@
 [_tb_system_call storage=system/_mostro.ks]
 
-[tb_eval  exp="sf.flag1=0"  name="flag1"  cmd="="  op="t"  val="0"  val_2="undefined"  ]
-[tb_eval  exp="sf.flag2=0"  name="flag2"  cmd="="  op="t"  val="0"  val_2="undefined"  ]
-[tb_eval  exp="sf.flag3=0"  name="flag3"  cmd="="  op="t"  val="0"  val_2="undefined"  ]
+[tb_eval  exp="f.flag_moba=0"  name="flag_moba"  cmd="="  op="t"  val="0"  val_2="undefined"  ]
+[tb_eval  exp="f.flag_mobb=0"  name="flag_mobb"  cmd="="  op="t"  val="0"  val_2="undefined"  ]
+[tb_eval  exp="f.flag_mobc=0"  name="flag_mobc"  cmd="="  op="t"  val="0"  val_2="undefined"  ]
 [tb_eval  exp="f.jade_enjoy=0"  name="jade_enjoy"  cmd="="  op="t"  val="0"  val_2="undefined"  ]
 *start
 
@@ -14,11 +14,11 @@
 [_tb_end_tyrano_code]
 
 [tb_start_tyrano_code]
-[jump  storage="vs_jade.ks"  target="vs_jade"  cond="f.jade_enjoy==3 && sf.flag1==1  &&  sf.flag2==1   &&  sf.flag3==1""]
+[jump  storage="vs_jade.ks"  target="vs_jade"  cond="f.jade_enjoy==3 && f.flag_moba==1  &&  f.flag_mobb==1   &&  f.flag_mobc==1""]
 [_tb_end_tyrano_code]
 
 [tb_start_tyrano_code]
-[jump  storage="end_nomal.ks"  target="nomal_end"  cond="sf.flag1==1  &&  sf.flag2==1   &&  sf.flag3==1""]
+[jump  storage="end_nomal.ks"  target="nomal_end"  cond="f.flag_moba==1  &&  f.flag_mobb==1   &&  f.flag_mobc==1""]
 [_tb_end_tyrano_code]
 
 [bg  time="300"  method="fadeIn"  storage="lounge.png"  cross="false"  ]
@@ -49,9 +49,9 @@
 
 [clickable  storage="mostro.ks"  x="420"  y="176"  width="114"  height="201"  target="*touch"  _clickable_img=""  ]
 [tb_start_tyrano_code]
-[glink  color="btn_14_black"  storage="moba_lounge.ks"  size="20"  text="ラウンジ"  x="650"  y="124"  width="200"  height=""  _clickable_img="" target="*lounge" cond="sf.flag1 == 0" ]
-[glink  color="btn_14_black"  storage="mobb_danwashitsu.ks"  size="20"  text="談話室"  x="650"  y="216"  width="200"  height=""  _clickable_img="" target="*danwashitsu" cond="sf.flag2 == 0" ]
-[glink  color="btn_14_black"  storage="mobc_koushaura.ks"  size="20"  text="学園"  x="650"  y="309"  width="200"  height=""  _clickable_img=""  target="*koushaura" cond="sf.flag3 == 0" ]
+[glink  color="btn_14_black"  storage="moba_lounge.ks"  size="20"  text="ラウンジ"  x="650"  y="124"  width="200"  height=""  _clickable_img="" target="*lounge" cond="f.flag_moba == 0" ]
+[glink  color="btn_14_black"  storage="mobb_danwashitsu.ks"  size="20"  text="談話室"  x="650"  y="216"  width="200"  height=""  _clickable_img="" target="*danwashitsu" cond="f.flag_mobb == 0" ]
+[glink  color="btn_14_black"  storage="mobc_koushaura.ks"  size="20"  text="学園"  x="650"  y="309"  width="200"  height=""  _clickable_img=""  target="*koushaura" cond="f.flag_mobc == 0" ]
 [_tb_end_tyrano_code]
 
 [chara_show  name="ジェイドENJOY"  time="0"  wait="true"  storage="chara/16/jade_enjoy_0.png"  width="164"  height="165"  left="75"  top="159"  reflect="false"  ]
@@ -110,7 +110,7 @@
 
 [tb_start_text mode=1 ]
 #ジェイド
-ハート・……ですか？僕にはなにも見えませんが？[p]
+ハート……ですか？僕にはなにも見えませんが？[p]
 もしかしたら素早く３ターンで取り立てを完了すると、なにか溜まるのかもしれません[p]
 [_tb_end_text]
 
